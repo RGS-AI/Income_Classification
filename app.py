@@ -34,9 +34,9 @@ def load_models():
     models = {
         "Logistic Regression": joblib.load("model/logistic_regression.pkl"),
         "Decision Tree": joblib.load("model/decision_tree.pkl"),
-        "kNN": joblib.load("model/knn.pkl"),
+        #"kNN": joblib.load("model/knn.pkl"),
         "Naive Bayes": joblib.load("model/naive_bayes.pkl"),
-        "Random Forest": joblib.load("model/random_forest.pkl"),
+        #"Random Forest": joblib.load("model/random_forest.pkl"),
         "XGBoost": joblib.load("model/xgboost.pkl")
     }
     scaler = joblib.load("model/scaler.pkl")  # for models that require scaling
