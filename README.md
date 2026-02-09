@@ -15,6 +15,10 @@ It contains 48,842 instances and 14 features (after preprocessing and one-hot en
 The features include both **numerical and categorical attributes** related to an individual's age, workclass, education, occupation, marital status, and hours worked per week.  
 The target variable is `income`, which indicates whether the individual earns >50K or <=50K.  
 
+`data = fetch_ucirepo(id=2)
+df = data.data.original
+df.head()`
+
 **Key features:**
 
 | Feature Name       | Description                            |
@@ -134,19 +138,22 @@ venv\Scripts\activate     # Windows
 ## Folder Structure:
 
 project-folder/
-│-- app.py                  # Streamlit app
-│-- requirements.txt        # Required Python packages
-│-- README.md               # Project documentation
-│-- model/                  # Saved trained models
-│   │-- logistic_regression.pkl
-│   │-- decision_tree.pkl
-│   │-- knn.pkl
-│   │-- naive_bayes.pkl
-│   │-- random_forest.pkl
-│   │-- xgboost.pkl
-│   │-- scaler.pkl
-│   │-- feature_columns.pkl
-
+│
+├── app.py                     # Streamlit application
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+│
+├── model/                     # Saved ML models and artifacts
+│   ├── logistic_regression.pkl
+│   ├── decision_tree.pkl
+│   ├── naive_bayes.pkl
+│   ├── random_forest.pkl
+│   ├── xgboost.pkl
+│   ├── scaler.pkl
+│   └── feature_columns.pkl
+│
+└── data/ (optional)
+    └── sample_test_data.csv   # Sample CSV for testing (without target)
 
 ---
 
