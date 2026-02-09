@@ -103,6 +103,8 @@ Please note that the dataset is trained on kNN and RF models, however, the model
 ## Deployment:
 The project is deployed using **Streamlit Community Cloud**.  
 
+`https://icmlbits.streamlit.app'
+
 **Deployment Steps:**
 1. Push the project folder to a GitHub repository.  
 2. Go to [Streamlit Cloud](https://share.streamlit.io/) and connect your GitHub account.  
