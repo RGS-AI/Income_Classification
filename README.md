@@ -95,6 +95,11 @@ df.head()`
 
 ---
 
+### Note:
+Please note that the dataset is trained on kNN and RF models, however, the models are >25 mb, it will not be displayed under the drop down menu.
+
+---
+
 ## Deployment:
 The project is deployed using **Streamlit Community Cloud**.  
 
