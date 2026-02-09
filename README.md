@@ -105,7 +105,7 @@ The project is deployed using **Streamlit Community Cloud**.
 ## Installation:
 
 1. Clone the repository:
-```bash
+bash
 git clone <your-repo-url>
 cd project-folder
 
