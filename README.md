@@ -108,18 +108,18 @@ The project is deployed using **Streamlit Community Cloud**.
 
 ## Installation:
 
-1. Clone the repository:
-bash
-git clone <your-repo-url>
-cd project-folder
+**Clone the repository:**
+
+- git clone <your-repo-url>
+- cd project-folder
 
 ---
 
 ## Create virtual enviroment (optional):
 
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+- python -m venv venv
+- source venv/bin/activate  # Linux/Mac
+- venv\Scripts\activate     # Windows
 
 ---
 
