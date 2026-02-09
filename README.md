@@ -136,7 +136,7 @@ venv\Scripts\activate     # Windows
 ---
 
 ## Folder Structure:
-
+```
 project-folder/
 │
 ├── app.py                     # Streamlit application
@@ -154,7 +154,7 @@ project-folder/
 │
 └── data/ (optional)
     └── sample_test_data.csv   # Sample CSV for testing (without target)
-
+```
 ---
 
 ## Author:
